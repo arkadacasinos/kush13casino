@@ -84,6 +84,7 @@ export default function RootLayout({
   return (
     <html lang="ru" className="kz13-root">
       <head>
+        <meta name="yandex-verification" content="727bf9b625cf715e" />
         {/* Слот для дополнительных пользовательских тегов: вставляйте свои meta/link сюда */}
         <meta name="author" content="Kush Casino" />
         <meta name="classification" content="online casino overview" />
